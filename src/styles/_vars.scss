@@ -4,4 +4,13 @@
 
   --c-primary: #222222;
   --c-bg: #ffffff;
+  --c-accent: #43615c;
+
+  --p-tr: 0.5s cubic-bezier(0.87, 0, 0.13, 1);
+
+  --txt-main: 400 1.6rem / 120% var(--ff-main);
+
+  @media (max-width: 49em) {
+    --txt-main: 400 3.2rem / 120% var(--ff-main);
+  }
 }
