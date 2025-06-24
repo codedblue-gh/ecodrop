@@ -1,0 +1,42 @@
+{
+  "menu": {
+    "products": "Products",
+    "about": "About us",
+    "support": "Support",
+    "account": "Account",
+    "productsList": [
+      "Bags",
+      "Ecoboxes",
+      "Vegan",
+      "Clothes",
+      "Gifts",
+      "Recycled"
+    ],
+    "aboutList": ["Our story", "Blog", "Careers", "Partners"],
+    "supportList": ["Delivery", "Find a partner", "Returns"]
+  },
+  "hero": {
+    "heading": "Every item in EcoDrop is a story of conscious consumption. Start it with us.",
+    "labels": {
+      "label1": "Natural materials",
+      "label2": "Recyclable packaging",
+      "label3": "Fast delivery",
+      "label4": "Toxin Free",
+      "label5": "Vegan-certified"
+    },
+    "articles": {
+      "article1": {
+        "heading": "How to choose eco-products for your home and not make a mistake?",
+        "txt": "Eco-products are not only fashionable, but also really important. We tell you how to identify truly sustainable products."
+      },
+      "article2": {
+        "heading": "What happens to the packaging after recycling?",
+        "txt": "We looked at how the recycling system works, which materials are actually recycled, and why the choice of packaging is so important."
+      },
+      "article3": {
+        "heading": "5 Habits That Will Make Your Life More Eco-Friendly",
+        "txt": "We'll tell you about five simple actions that you can implement today: from reusable bags to eco-friendly cleaning."
+      }
+    }
+  }
+}

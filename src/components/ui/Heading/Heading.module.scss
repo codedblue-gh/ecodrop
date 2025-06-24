@@ -1,0 +1,9 @@
+.heading {
+  font-size: 5.5rem;
+  font-weight: 200;
+  line-height: 110%;
+  @media (max-width: 49em) {
+    font-size: 5.6rem;
+    line-height: 120%;
+  }
+}

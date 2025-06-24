@@ -1,0 +1,43 @@
+._has-bg {
+  position: relative;
+  background-image: linear-gradient(
+    135deg,
+    rgba(34, 34, 34, 0.5) 9.74%,
+    rgba(34, 34, 34, 0.3) 90.26%
+  );
+  backdrop-filter: blur(3rem);
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: inherit;
+    border: 1px solid transparent;
+    background: linear-gradient(
+        135deg,
+        hsla(0, 0%, 100%, 0.2),
+        hsla(0, 0%, 100%, 0) 50%,
+        hsla(0, 0%, 100%, 0.2)
+      )
+      border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+      linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+  }
+}
+
+._has-tr {
+  &::before {
+    transition: border var(--p-tr);
+  }
+
+  @media (any-hover: hover) {
+    &:hover {
+      &::before {
+        border: 1px solid var(--c-bg);
+      }
+    }
+  }
+}
